@@ -6,6 +6,8 @@
 
 public class StaticTypeCheck {
 
+    private static int type_error_count =0; // 타입 에러의 개수
+
     public static TypeMap typing (Declarations d) {
         TypeMap map = new TypeMap();
         for (Declaration di : d) 
@@ -16,6 +18,7 @@ public class StaticTypeCheck {
     public static void check(boolean test, String msg) {
         if (test)  return;
         System.err.println(msg);
+        type_error_count++; // 추가 구현 과제
         // System.exit(1); // 추가 구현 과제
     }
 
@@ -182,6 +185,11 @@ public class StaticTypeCheck {
         TypeMap map = typing(prog.decpart);
         map.display();   // student exercise
         V(prog);
+        if(type_error_count >0)
+        {
+            System.out.println(type_error_count+" type error occurred"); // 추가 구현 과제
+            System.exit(1); // 추가 구현 과제
+        }
     } //main
 
 } // class StaticTypeCheck

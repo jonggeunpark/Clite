@@ -31,7 +31,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TypeTransformer">
+  <component name="RunManager" selected="Application.StaticTypeCheck">
     <configuration name="Lexer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lexer" />
       <module name="untitled" />
@@ -62,8 +62,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TypeTransformer" />
         <item itemvalue="Application.StaticTypeCheck" />
+        <item itemvalue="Application.TypeTransformer" />
         <item itemvalue="Application.Parser" />
         <item itemvalue="Application.Lexer" />
       </list>
@@ -83,7 +83,7 @@
       <workItem from="1573393518741" duration="11244000" />
       <workItem from="1573710727978" duration="1671000" />
       <workItem from="1573822311607" duration="9774000" />
-      <workItem from="1574053414100" duration="555000" />
+      <workItem from="1574053414100" duration="3177000" />
     </task>
     <servers />
   </component>
