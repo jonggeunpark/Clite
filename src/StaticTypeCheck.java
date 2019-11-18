@@ -16,7 +16,7 @@ public class StaticTypeCheck {
     public static void check(boolean test, String msg) {
         if (test)  return;
         System.err.println(msg);
-        System.exit(1);
+        // System.exit(1); // 추가 구현 과제
     }
 
     public static void V (Declarations d) {
@@ -119,7 +119,7 @@ public class StaticTypeCheck {
         if (s instanceof Assignment) {
             Assignment a = (Assignment)s;
             check( tm.containsKey(a.target)
-                   , " undefined target in assignment: " + a.target);
+                   , "undefined target in assignment: " + a.target);
             V(a.source, tm);
             Type ttype = (Type)tm.get(a.target);
             Type srctype = typeOf(a.source, tm);
@@ -174,15 +174,14 @@ public class StaticTypeCheck {
     }
 
     public static void main(String args[]) {
-        Parser parser  = new Parser(new Lexer("convert.cpp"));
+        Parser parser  = new Parser(new Lexer("error-fact.cpp"));
         Program prog = parser.program();
-        // prog.display(0);           // student exercise
+        prog.display(0);           // student exercise
         System.out.println("\nBegin type checking...");
         System.out.println("Type map:");
         TypeMap map = typing(prog.decpart);
-        // map.display();   // student exercise
+        map.display();   // student exercise
         V(prog);
-        System.out.println(map);
     } //main
 
 } // class StaticTypeCheck

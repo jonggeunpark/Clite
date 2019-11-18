@@ -63,8 +63,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.TypeTransformer" />
-        <item itemvalue="Application.Parser" />
         <item itemvalue="Application.StaticTypeCheck" />
+        <item itemvalue="Application.Parser" />
         <item itemvalue="Application.Lexer" />
       </list>
     </recent_temporary>
@@ -82,7 +82,8 @@
       <workItem from="1572782520653" duration="6856000" />
       <workItem from="1573393518741" duration="11244000" />
       <workItem from="1573710727978" duration="1671000" />
-      <workItem from="1573822311607" duration="6435000" />
+      <workItem from="1573822311607" duration="9774000" />
+      <workItem from="1574053414100" duration="555000" />
     </task>
     <servers />
   </component>
