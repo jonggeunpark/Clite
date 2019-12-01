@@ -6,7 +6,7 @@
 
 public class StaticTypeCheck {
 
-    private static int type_error_count =0; // 타입 에러의 개수
+    public static int type_error_count =0; // 타입 에러의 개수
 
     public static TypeMap typing (Declarations d) {
         TypeMap map = new TypeMap();

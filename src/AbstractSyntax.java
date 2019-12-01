@@ -465,12 +465,6 @@ class Operator {
     boolean floatOp ( ) { return val.equals(FLOAT); }
     boolean charOp ( ) { return val.equals(CHAR); }
 
-    // 맞나..
-    boolean I2F () { return val.equals(INT);}
-    boolean I2C () { return val.equals(INT);}
-    boolean F2I () { return val.equals(FLOAT);}
-    boolean C2I () { return val.equals(CHAR);}
-
     final static String intMap[ ] [ ] = {
         {PLUS, INT_PLUS}, {MINUS, INT_MINUS},
         {TIMES, INT_TIMES}, {DIV, INT_DIV},

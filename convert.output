@@ -46,3 +46,8 @@ Program (abstract syntax):
           Unary: 
             Operator: C2I
             Variable: c
+
+Begin interpreting...programs/convert.cpp
+
+Final State
+{ <i, 77>, <c, a>, <f, -20.0> }

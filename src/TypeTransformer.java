@@ -139,6 +139,11 @@ public class TypeTransformer {
         Program out = T(prog, map);
         System.out.println("Output AST");
         out.display(0);    // student exercise
+        if(StaticTypeCheck.type_error_count >0)
+        {
+            System.out.println(StaticTypeCheck.type_error_count+" type error occurred"); // 추가 구현 과제
+            System.exit(1); // 추가 구현 과제
+        }
     } //main
 
     } // class TypeTransformer
