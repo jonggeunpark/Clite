@@ -128,7 +128,7 @@ public class TypeTransformer {
     
 
     public static void main(String args[]) {
-        Parser parser  = new Parser(new Lexer("error-fact.cpp"));
+        Parser parser  = new Parser(new Lexer("convert.cpp"));
         Program prog = parser.program();
         prog.display(0);           // student exercise
         System.out.println("\nBegin type checking...");

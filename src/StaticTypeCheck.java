@@ -104,9 +104,9 @@ public class StaticTypeCheck {
             else if(u.op.intOp())
                 check((typ1 == Type.CHAR || typ1== Type.FLOAT),"type error for " + u.op);
             else if(u.op.floatOp())
-                check((typ1 == Type.FLOAT),"type error for " + u.op);
+                check((typ1 == Type.INT),"type error for " + u.op);
             else if(u.op.charOp())
-                check((typ1==Type.CHAR),"type error for " + u.op);
+                check((typ1==Type.INT),"type error for " + u.op);
             else
                 throw new IllegalArgumentException("should never reach here");
             return;
@@ -177,7 +177,7 @@ public class StaticTypeCheck {
     }
 
     public static void main(String args[]) {
-        Parser parser  = new Parser(new Lexer("error-fact.cpp"));
+        Parser parser  = new Parser(new Lexer("convert.cpp"));
         Program prog = parser.program();
         prog.display(0);           // student exercise
         System.out.println("\nBegin type checking...");
