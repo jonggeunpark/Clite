@@ -85,6 +85,14 @@ public class DynamicTyping extends Semantics {
             }
 
             if (v1.type() == Type.BOOL) { // BOOL형 피연산자에 대한 관계 연산
+                if (op.val.equals(Operator.LT))
+                    return new BoolValue(B2I(v1.boolValue()) < B2I(v2.boolValue()));
+                if (op.val.equals(Operator.LE))
+                    return new BoolValue(B2I(v1.boolValue()) <= B2I(v2.boolValue()));
+                if (op.val.equals(Operator.GT))
+                    return new BoolValue(B2I(v1.boolValue()) > B2I(v2.boolValue()));
+                if (op.val.equals(Operator.GE))
+                    return new BoolValue(B2I(v1.boolValue()) >= B2I(v2.boolValue()));
                 if (op.val.equals(Operator.EQ))
                     return new BoolValue(v1.boolValue() == v2.boolValue());
                 if (op.val.equals(Operator.NE))
@@ -101,8 +109,16 @@ public class DynamicTyping extends Semantics {
             }
         }
         throw new IllegalArgumentException("should never reach here");
-    } 
-    
+    }
+
+    int B2I(boolean a){
+        Boolean b = new Boolean (a);
+        if (b.equals(false))
+            return 0;
+        else
+            return 1;
+    }
+
     Value applyUnary (Operator op, Value v) {
         if (op.val.equals(Operator.NOT))
             return new BoolValue(!v.boolValue( ));

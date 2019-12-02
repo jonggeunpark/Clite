@@ -25,7 +25,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.Semantics">
+  <component name="RunManager" selected="Application.DynamicTyping">
     <configuration name="DynamicTyping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DynamicTyping" />
       <module name="untitled" />
@@ -63,8 +63,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Semantics" />
         <item itemvalue="Application.DynamicTyping" />
+        <item itemvalue="Application.Semantics" />
         <item itemvalue="Application.TypeTransformer" />
         <item itemvalue="Application.StaticTypeCheck" />
         <item itemvalue="Application.Parser" />
@@ -108,25 +108,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="682" key="GridCell.Tab.0.bottom" timestamp="1575218752174">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1237" height="410" key="GridCell.Tab.0.bottom" timestamp="1575265259393">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1237" height="410" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1575265259393" />
     <state width="1877" height="682" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575218752174" />
-    <state width="1877" height="682" key="GridCell.Tab.0.center" timestamp="1575218752174">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1237" height="410" key="GridCell.Tab.0.center" timestamp="1575265259393">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1237" height="410" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1575265259393" />
     <state width="1877" height="682" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575218752174" />
-    <state width="1877" height="682" key="GridCell.Tab.0.left" timestamp="1575218752174">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1237" height="410" key="GridCell.Tab.0.left" timestamp="1575265259392">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1237" height="410" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1575265259392" />
     <state width="1877" height="682" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575218752174" />
-    <state width="1877" height="682" key="GridCell.Tab.0.right" timestamp="1575218752174">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1237" height="410" key="GridCell.Tab.0.right" timestamp="1575265259393">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1237" height="410" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1575265259393" />
     <state width="1877" height="682" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575218752174" />
-    <state x="652" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1575217603658">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="435" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1575262644333">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="435" y="224" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1575262644333" />
     <state x="652" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575217603658" />
   </component>
 </project>
